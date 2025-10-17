@@ -78,3 +78,25 @@ nav ul li a {
     font-size: 1.1rem;
 
 }
+
+header {
+    padding: 2rem 3rem;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.nav-link {
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    transition: transform 0.3s ease;
+}
+
+.nav-link:hover {
+    transform: scale(1.1);
+}
