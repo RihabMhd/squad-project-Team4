@@ -1,15 +1,17 @@
-h2{
+h2 {
     font-size: 3rem;
     font-weight: bold;
     text-align: center;
     text-shadow: 1px 1px 2rem black;
 
 }
-p{
+
+p {
 
     text-align: center;
     color: gray;
-} 
+}
+
 * {
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 10px;
@@ -39,7 +41,41 @@ p{
 .About-card__image:hover {
     transform: scale(1.1);
     transition: transform 0.3s ease;
+}
 
+header {
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    background-color: #e9ffdb;
+    margin: "auto";
+    color: white;
+    border: 1px solid rgb(32, 32, 32);
+    border-radius: 25px;
+    width: 60rem;
+   
+}
+
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+nav ul li {
+    list-style: none;
+
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    color:black;
+    font-weight: 400;
+    font-size: 1.1rem;
 
 }
 
