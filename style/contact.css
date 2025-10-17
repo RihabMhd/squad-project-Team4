@@ -1,0 +1,53 @@
+.main {
+    margin: 2.5rem auto;
+}
+
+.main-title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 3rem;
+    text-shadow: 1px 1px 2rem #000;
+}
+
+.main-paragraph {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.main-form {
+    margin: 2rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.mb-3 {
+    margin-bottom: 2rem;
+}
+
+.form-label {
+    font-weight: bolder;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.form-control {
+    display: block;
+    min-width: 58px;
+    min-height: 2rem;
+    border: 1px solid gray;
+    border-radius: 0.2rem;
+    padding: 0 1rem;
+}
+
+.btn {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    background-color: rgba(37, 37, 191, 0.92);
+    border-radius: 0.2rem;
+    cursor: pointer;
+    min-width: 203px;
+}
